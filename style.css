@@ -62,8 +62,14 @@ header>.interface {
     justify-content: space-between;
 }
 
-header .logo img {
-    height: 5em;
+header .logo i{
+    font-size: 40px;
+    color: #00d9ff;
+    transition: .2s;
+}
+
+header .logo i:hover{
+    color: #FFF;
 }
 
 header a {
@@ -96,6 +102,11 @@ header nav.menu-desktop ul li {
 .btn-abrir-menu i {
     color: #00d9ff;
     font-size: 40px;
+    transition: .2s;
+}
+
+.btn-abrir-menu i:hover {
+    color: #FFF;
 }
 
 .menu-mobile {
@@ -125,6 +136,11 @@ header nav.menu-desktop ul li {
 .menu-mobile .btn-fechar i {
     color: #00d9ff;
     font-size: 30px;
+    transition: .2s;
+}
+
+.menu-mobile .btn-fechar i:hover {
+    color: #FFF;
 }
 
 .menu-mobile nav ul {
@@ -394,8 +410,9 @@ footer {
     box-shadow: 0 0 40px 10px #ffffff18;
 }
 
-footer .logo-footer img {
-    height: 5em;
+footer .logo-footer i {
+    color: #00d9ff;
+    font-size: 50px;
 }
 
 footer .flex {
