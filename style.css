@@ -215,17 +215,17 @@ section.topo-do-site .flex {
     }
 }
 
-/* ESTILO DOS CONHECIMENTOS */
+/* ESTILO DOS formacao */
 
-section.conhecimentos {
+section.formacao {
     padding: 40px 4%;
 }
 
-section.conhecimentos .flex {
+section.formacao .flex {
     gap: 60px;
 }
 
-.conhecimentos .conhecimentos-box {
+.formacao .formacao-box {
     color: #FFF;
     padding: 40px;
     border-radius: 20px;
@@ -233,17 +233,17 @@ section.conhecimentos .flex {
     transition: .2s;
 }
 
-.conhecimentos .conhecimentos-box:hover {
+.formacao .formacao-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #ffffff36;
 }
 
-.conhecimentos .conhecimentos-box i {
+.formacao .formacao-box i {
     font-size: 70px;
     color: #00d9ff;
 }
 
-.conhecimentos .conhecimentos-box h3 {
+.formacao .formacao-box h3 {
     font-size: 28px;
     margin: 15px 0px;
 }
@@ -484,9 +484,9 @@ footer .line-footer p a:hover {
         width: 100%;
     }
 
-    /* CONHECIMENTOS */
+    /* formacao */
 
-    section.conhecimentos {
+    section.formacao {
         padding: 40px 8%;
     }
 
